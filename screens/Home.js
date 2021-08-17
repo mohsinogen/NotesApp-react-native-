@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import {Fab, AddIcon} from 'native-base';
-import {List, Heading, Row, Center, Spinner} from 'native-base';
+import {Heading, Row, Center, Spinner} from 'native-base';
 import AsyncStorage from '@react-native-community/async-storage';
 import {useIsFocused} from '@react-navigation/native';
 
@@ -128,12 +128,6 @@ const Home = ({navigation, route}) => {
 export default Home;
 
 const styles = StyleSheet.create({
-  emptyContainer: {
-    backgroundColor: 'white',
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
   container: {
     backgroundColor: 'white',
     flexGrow: 1,
@@ -152,16 +146,5 @@ const styles = StyleSheet.create({
     color: '#070D59',
     marginVertical: 15,
     marginHorizontal: 5,
-  },
-  actionButton: {
-    marginLeft: 5,
-  },
-  seasonName: {
-    color: '#070D59',
-    textAlign: 'justify',
-  },
-  listItem: {
-    marginLeft: 0,
-    marginBottom: 20,
   },
 });

@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {StyleSheet, Text, ScrollView} from 'react-native';
-import {Button, Heading, FormControl, Input, TextArea} from 'native-base';
+import {Button, FormControl, Input, TextArea} from 'native-base';
 import AsyncStorage from '@react-native-community/async-storage';
 
 const Edit = ({navigation, route}) => {
@@ -83,9 +83,5 @@ const styles = StyleSheet.create({
 
     flex: 1,
     justifyContent: 'center',
-  },
-
-  formItem: {
-    marginBottom: 20,
   },
 });

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {StyleSheet, ScrollView, Text} from 'react-native';
-import {Button, Heading, FormControl, Input, TextArea} from 'native-base';
+import {Button, FormControl, Input, TextArea} from 'native-base';
 import shortid from 'shortid';
 import AsyncStorage from '@react-native-community/async-storage';
 
@@ -75,9 +75,5 @@ const styles = StyleSheet.create({
 
     flex: 1,
     justifyContent: 'center',
-  },
-
-  formItem: {
-    marginBottom: 20,
   },
 });
